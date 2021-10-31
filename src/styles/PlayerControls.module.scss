@@ -1,0 +1,27 @@
+@import "../styles/common.module.scss";
+
+.PlayerControlsContainer {
+  @include ContainerStyles();
+  max-width: 1044px;
+  .TopContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto;
+    .LeftControls,
+    .CenterControls,
+    .RightControls {
+      display: flex;
+      align-items: center;
+    }
+    .LeftControls,
+    .RightControls {
+      img {
+        &:first-of-type {
+          margin-right: 45px;
+        }
+      }
+    }
+  }
+}
