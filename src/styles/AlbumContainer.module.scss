@@ -1,8 +1,28 @@
 .AlbumContainer {
+  margin: 100px 100px;
+  max-width: 684px;
+  background-color: #f8f8f8;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 40px 30px 80px rgba(54, 48, 116, 0.3);
+  border-radius: 60px;
+  padding: 30px 40px;
   .AlbumImageSection {
+    max-width: 300px;
+    max-height: 300.2px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.05),
+      inset -10px -10px 20px #ffffff;
+    filter: drop-shadow(-10px -10px 15px #ffffff)
+      drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.05));
     img {
-      width: 329px;
-      height: 329.2px;
+      box-shadow: inset 10px 10px 15px rgba(255, 255, 255, 0.2);
+      filter: drop-shadow(5px 5px 10px rgba(37, 5, 57, 0.51));
+      max-width: 300px;
+      max-height: 300.2px;
+      border-radius: 30px;
     }
   }
 }
