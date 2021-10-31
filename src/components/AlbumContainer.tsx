@@ -12,19 +12,23 @@ const AlbumContainer: React.FC = () => {
         />
       </section>
       <section className={styles.AlbumDetailsControlsSection}>
-        <p>Now Playing</p>
-        <section className={styles.AlbumDetails}>
-          <p>Purple Haze</p>
-          <p>Jimi Hendrix</p>
-          <p>Woodstock</p>
-        </section>
-        <section className={styles.AlbumControls}>
-          {[likeSong, addToPlaylist, share].map((icon, index) => (
-            <div key={index} className={styles.ControlsContainer}>
-              <img src={icon} alt="icon" />
-            </div>
-          ))}
-        </section>
+        <div className={styles.Sectional}>
+          <p id={styles.Header}>Now Playing</p>
+          <section className={styles.AlbumDetails}>
+            <p>I Giorni</p>
+            <p>Ludovico Einaudi</p>
+            <p>Island Essential Einaudi</p>
+          </section>
+        </div>
+        <div className={styles.Sectional}>
+          <section className={styles.AlbumControls}>
+            {[likeSong, addToPlaylist, share].map((icon, index) => (
+              <div key={index} className={styles.ControlsContainer}>
+                <img src={icon} alt="icon" />
+              </div>
+            ))}
+          </section>
+        </div>
       </section>
     </div>
   );
