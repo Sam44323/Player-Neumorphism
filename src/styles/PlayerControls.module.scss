@@ -24,4 +24,10 @@
       }
     }
   }
+  .BottomContainer {
+    .TimerSection {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
 }
