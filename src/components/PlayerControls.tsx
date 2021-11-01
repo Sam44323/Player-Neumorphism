@@ -76,6 +76,10 @@ const PlayerControls: React.FC = () => {
             />
           </SliderThumb>
         </Slider>
+        <div className={styles.TimerSection}>
+          <p>0 : 00 : 00</p>
+          <p>4 : 01 : 30</p>
+        </div>
       </div>
     </div>
   );
