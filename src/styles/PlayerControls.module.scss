@@ -18,6 +18,10 @@
     .LeftControls,
     .RightControls {
       img {
+        &:hover {
+          transform: scale(1.15);
+          cursor: pointer;
+        }
         &:first-of-type {
           margin-right: 45px;
         }
