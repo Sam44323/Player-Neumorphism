@@ -3,6 +3,9 @@
 .AlbumContainer {
   @include ContainerStyles();
   display: flex;
+  min-width: 670px;
+  position: relative;
+  z-index: 10;
   @media (max-width: 820px) {
     flex-direction: column;
     align-items: center;

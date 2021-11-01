@@ -1,0 +1,13 @@
+.App {
+  @media (min-width: 1200px) {
+    display: flex;
+  }
+  @media (min-width: 1600px) {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+  }
+  .Left {
+    flex: 0;
+  }
+}

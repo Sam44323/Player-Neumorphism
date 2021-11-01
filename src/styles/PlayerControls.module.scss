@@ -3,8 +3,10 @@
 .PlayerControlsContainer {
   @include ContainerStyles();
   position: relative;
-  max-width: 900px;
+  max-width: 1100px;
+  min-width: 770px;
   padding-left: 100px;
+  transform: translateX(-70px) translateY(40px);
   .Band {
     width: 7px;
     height: 91px;
@@ -20,7 +22,7 @@
     align-items: center;
     max-width: 90%;
     margin: 0 auto;
-    margin-right: 80px;
+    margin-right: 60px;
     .LeftControls,
     .CenterControls,
     .RightControls {
@@ -41,7 +43,7 @@
     }
   }
   .BottomContainer {
-    margin-right: 80px;
+    margin-right: 60px;
     .SliderSection {
       width: 97%;
       margin: 0 auto;

@@ -6,8 +6,12 @@ import PlayerControls from "./components/PlayerControls";
 const App: React.FC = () => {
   return (
     <div className="App">
-      <AlbumContainer />
-      <PlayerControls />
+      <div className="Left">
+        <AlbumContainer />
+      </div>
+      <div className="Right">
+        <PlayerControls />
+      </div>
     </div>
   );
 };
