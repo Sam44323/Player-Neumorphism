@@ -20,6 +20,7 @@ import {
 const PlayerControls: React.FC = () => {
   return (
     <div className={styles.PlayerControlsContainer}>
+      <div className={styles.Band}></div>
       <section className={styles.TopContainer}>
         <div className={styles.LeftControls}>
           <img src={playerControlSync} alt="sync-icon" />

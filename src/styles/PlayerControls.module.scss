@@ -2,13 +2,25 @@
 
 .PlayerControlsContainer {
   @include ContainerStyles();
-  max-width: 830px;
+  position: relative;
+  max-width: 900px;
+  padding-left: 100px;
+  .Band {
+    width: 7px;
+    height: 91px;
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    background: #e1deea;
+    border-radius: 13px;
+  }
   .TopContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 90%;
     margin: 0 auto;
+    margin-right: 80px;
     .LeftControls,
     .CenterControls,
     .RightControls {
@@ -29,6 +41,7 @@
     }
   }
   .BottomContainer {
+    margin-right: 80px;
     .SliderSection {
       width: 97%;
       margin: 0 auto;
