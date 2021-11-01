@@ -71,11 +71,7 @@ const PlayerControls: React.FC = () => {
         </div>
       </section>
       <div className={styles.BottomContainer}>
-        <PrettoSlider
-          valueLabelDisplay="auto"
-          aria-label="pretto slider"
-          defaultValue={20}
-        />
+        <PrettoSlider valueLabelDisplay="auto" defaultValue={20} />
       </div>
     </div>
   );

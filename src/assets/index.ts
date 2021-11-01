@@ -8,6 +8,7 @@ import playerControlPlay from "./player-control-play.png";
 import playerControlRight from "./player-control-right.png";
 import playerControlLoopRight from "./player-control-loop-another.png";
 import playerControlSettings from "./player-control-settings.png";
+import sliderThumb from "./slider-thumb.svg";
 
 export {
   share,
@@ -20,4 +21,5 @@ export {
   playerControlRight,
   playerControlLoopRight,
   playerControlSettings,
+  sliderThumb,
 };
