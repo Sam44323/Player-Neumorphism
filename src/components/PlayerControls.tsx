@@ -30,9 +30,7 @@ const PlayerControls: React.FC = () => {
           <img src={playerControlSettings} alt="settings-icon" />
         </div>
       </section>
-      <div className={styles.BottomContainer}>
-        <input type="range" />
-      </div>
+      <div className={styles.BottomContainer}></div>
     </div>
   );
 };

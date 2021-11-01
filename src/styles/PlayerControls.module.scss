@@ -24,12 +24,4 @@
       }
     }
   }
-  .BottomContainer {
-    input[type="range"] {
-      width: 100%;
-      &::-webkit-slider-thumb {
-        background-image: url("../assets/slider-thumb.svg");
-      }
-    }
-  }
 }
