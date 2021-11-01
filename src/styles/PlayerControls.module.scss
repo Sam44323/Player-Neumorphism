@@ -25,10 +25,26 @@
     }
   }
   .BottomContainer {
+    .SliderSection {
+      width: 97%;
+      margin: 0 auto;
+    }
     .TimerSection {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      margin-top: 20px;
+      p {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+        display: flex;
+        align-items: center;
+        font-feature-settings: "liga" off;
+        color: #aa9bbe;
+      }
     }
   }
 }

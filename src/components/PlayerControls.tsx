@@ -36,14 +36,14 @@ const PlayerControls: React.FC = () => {
         </div>
       </section>
       <div className={styles.BottomContainer}>
-        <section>
+        <section className={styles.SliderSection}>
           <Slider aria-label="slider-ex-1" defaultValue={0}>
             <SliderTrack
               style={{
-                height: "10px",
+                height: "010px",
                 borderRadius: "17.5px",
                 background: "#DEDDE3",
-                padding: "9px 0",
+                padding: "6px 0",
                 boxShadow:
                   "-3px -3px 5px #FFFFFF, 3px 3px 5px rgba(0, 0, 0, 0.05), inset 3px 3px 5px rgba(0, 0, 0, 0.05), inset -3px -3px 5px #FFFFFF",
               }}
@@ -79,8 +79,8 @@ const PlayerControls: React.FC = () => {
           </Slider>
         </section>
         <section className={styles.TimerSection}>
-          <p>0 : 00 : 00</p>
-          <p>4 : 01 : 30</p>
+          <p>0:00:00</p>
+          <p>4:01:30</p>
         </section>
       </div>
     </div>
