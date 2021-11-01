@@ -7,6 +7,12 @@
   min-width: 770px;
   padding-left: 100px;
   transform: translateX(-70px) translateY(40px);
+  @media (max-width: 800px) {
+    transform: none;
+    max-width: 1000px;
+    min-width: 780px;
+    transform: translateY(-100px);
+  }
   .Band {
     width: 7px;
     height: 91px;
